@@ -1,0 +1,427 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+main {
+	display: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px 10px #888888
+}
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+/* style for heading image */
+.responsive {
+  width:60%;
+  height: auto;
+}
+
+header {
+	
+	margin-bottom:2em;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1, h2 {
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav li a {
+	display: inline-block;
+	padding: 0;
+	color:#FFFF66;
+  text-decoration: none;
+  
+}
+
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	display: center;
+	width:100%;
+	padding-bottom: 2%;
+}
+
+ul {
+    list-style: none;
+    margin: 1%;
+    padding-left: 1%;
+}
+
+li {
+    color: #FFFF66;
+  background: #8B0000;
+    display: inline-block;
+    float: center;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+  border-radius: 25px;
+	border-top: solid #000000;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 1%;
+	
+}
+  
+li a {
+  color:#FFFF66;
+  text-decoration: none; 
+  
+}
+
+li:hover {
+    background: red;
+    cursor: pointer;
+	
+}
+
+ul li ul {
+    background: transparent;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 16.5%;
+    position: absolute;
+  transition: all 0.8 ease;
+  margin-top: 0.4em;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: red;
+  width: 100%;
+}
+
+#box1 { 
+	display: inline-block;
+	width:20%; 
+	height:200px;
+	padding: 3em;
+	border: 2px solid #8B0000; 
+	margin-right: 5px;
+	margin-left:20px;
+	text-align: center;
+	border-radius: 25px;
+}
+	
+#box2 { 
+	  
+	display: inline-block;
+	width:20%; 
+	height:200px;
+	padding: 3em;
+	border: 2px solid #8B0000; 
+	margin-right: 5px;
+	text-align: center;
+	border-radius: 25px;
+	
+}
+
+#box3 { 
+  
+	display: inline-block;
+	width:23%; 
+	height:200px;
+	padding: 3em;
+	border: 2px solid #8B0000; 
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 25px;
+	
+}
+#box4 { 
+  
+	display: inline-block;
+	width:70%; 
+	height:500px;
+	padding: 2em;
+	border: 2px solid #8B0000; 
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 25px;
+	
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  outline: none;
+  transition: 0.4s;
+}
+
+.btn {
+	font-weight: bold;
+	 margin-left: 12em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
+
+/* Style for the container centers the page and sents the element width */ 
+#container{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+
+/* styles for card element on the team page */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 hsl(0, 100%, 30%);
+  transition: 0.3s;
+    border-radius: 5px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  display: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+ 
+}
+
+/* Add rounded corners to the top left and the top right corner of the image  in the card */
+img {
+  border-radius: 5px 5px 5px 5px;
+   display: block;
+  margin-left: auto;
+   margin-right: auto;
+}
+
+video {
+	margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+ 
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #00000;
+}
+
+/* styles for anchor element withing the footer*/
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+/*styles rules for input, select and textarea form elements*/
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+/* style rule for label element*/
+label {
+	display: block;
+}
+
+/*style rule for btn class*/
+ .btn {
+	 margin-left: 12em;
+	 display: inline-block;
+  text-align: center;
+  text-decoration: none;
+   margin-top: 3em;
+
+}
+/* style rule for unordered list within a form*/
+form ul {
+		list-style-type: none;
+}
+
+/* style rule for checkbok class*/
+.chkbx {
+	display: inline-block;
+}
+
+/* Media query for mobile layout targets screen size with a minimum width of 660px.  */ 
+
+@media only screen and (min-width: 660px) {
+ 
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+/* style for heading image */
+.responsive {
+  width:50%;
+  height: auto;
+}
+
+/* Style specifies a horizontal display for navigation links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left:0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 16.5%;
+	white-space: nowrap;
+}
+
+
+/* Style specifies a font weight and top margin for description list terms */
+dt	{
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+/*hide mobile display*/
+.mobile{
+		display: none;
+	
+	}
+	
+.desktop{
+		display: inline;
+	}
+
+/* Style specifies to display the tablet class */
+.tablet {
+	display: block;
+}
+
+
+}
+
+
+/* Media query for desktop layout targets screens with a minimum width of 830px. */
+
+@media only screen and (min-width: 830px) {
+ 
+/* Style specifies width for container */ 
+#container {
+	width: 80%;
+}
+
+
+
+table{
+	 Border: 2px solid #000000;
+	 border-collapse: collapse;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 100%;
+ }
+ 
+  /* Styles specifies border and padding for th and td elements*/
+ th, td { 
+ border: 0.1em solid #000000;
+ padding: 1em;
+ text-align: center;
+ font-size: 1em 
+ }
+
+
+ 
+ /* style for the th element */
+ th {
+	 background-color: #008000;
+	 color: #FFFF99;
+ }
+ 
+ /* style for caption element*/
+ Caption { 
+ font-size: 2em;
+ font-weight: bold;
+ padding-bottom: 0.5em;
+ }
+ 
+ /*styles for label element*/
+ label {
+	 float: left;
+	 padding-right: 0.5em;
+	 text-align: right;
+	 width: 10em;
+ }
+ 
+ /*style rule for form element*/
+form { 
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+
+/* style rule for paragraph with form element */
+form p {
+	color : #000000;
+	
+}
+}
+
+
+
+
+
