@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Analee Cenac -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<title>Soufriere Kiddies Cricket Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+ 
+</head>
+<body>
+
+	<div id="container">
+
+<!-- Use the header area for the website name and logo -->
+	<header>
+	<a href="about.html">
+		<img src="images/banner.jpg" alt="Soufriere Kiddies Cicket Club Logo" class="responsive">
+		</a>
+	</header>
+	
+		
+<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	
+	<nav>
+  <ul>
+    <li><a href="about.html">About Us</a></li>
+	<li><a href="Team.html">Team</a></li>
+	<li><a href="SignUp.html">Sign Up</a></li>
+	<li><a href="FAQ.html">FAQ</a></li>
+    <li><a href="#" aria-haspopup="true">Events</a>
+      <ul class="dropdown">
+        <li><a href="pevents.html">Previous</a></li>
+        <li><a href="fixture.html">Upcoming</a></li>
+      </ul>
+    </li>
+	<li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!-- Use the main area to add the main content of the webpage -->
+<main>
+<h1> Frequently Ask Questions </h1>
+
+
+ <button class="accordion">What age can play?</button>
+<div class="panel">
+  <p>Currently we cater to kids between 6-12 years of age. We will be accepting kids for our under 16 team in the summer of 2020.</p>
+</div>
+
+<button class="accordion">When and where are training sessions held?</button>
+<div class="panel">
+  <p>Trainings and meetings are held every Monday, Wednesday, Fridays at 4pm-6pm with meeting and discussions if needed are held for 10-20 mins of the allocated time before formal training activities begin at the Soufriere Mini Stadium.</p>
+</div>
+<button class="accordion">What facilities and equipment are provided at training?</button>
+<div class="panel">
+  <p>Training is held on the field of the soufriere mini stadium containing bathroom facilities and changing rooms. All players will be supplied with equipment and gears such as protective pads, balls, bats, helmets and uniforms which are covered by the small monthly members fee.</p>
+</div>
+
+<button class="accordion">Can we try it a few times and see if our child likes it?</button>
+<div class="panel">
+  <p>Yes, You will be able to try it out for 2 weeks at a small fee of $10.</p>
+</div>
+
+<button class="accordion">What If my child gets hurts/injured?</button>
+<div class="panel">
+  <p>A small insurance fee is included in your monthly payment that would cover your child if he/she gets hurt when in our care.</p>
+</div> 
+
+<button class="accordion">What is the cost?</button>
+<div class="panel">
+  <p>$20 monthly cost per child.</p>
+</div> 
+
+<button class="accordion">How do i join?</button>
+<div class="panel">
+  <p>You can sign up by clicking sign up at the top of our page or <a href="SignUp.html">Sign Up</a>.</p>
+</div> 
+
+<button class="accordion">Any further questions?</button>
+<div class="panel">
+  <p>Feel free to contact is via email at <a href="mailto:soufrierekiddiescricket@club.net">forwardfitness@club.net</a>.</p>
+</div>	
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</main>
+
+<!-- Use the footer area to add webpage footer content -->
+<footer>
+	&copy; Copyright 2015. All Rights Reserved.<br>
+	<a href="mailto:soufrierekiddiescricket@club.net">soufrierekiddiescricket@club.net</a>
+</footer>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Analee Cenac -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<title>Soufriere Kiddies Cricket Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div id="container">
+
+<!-- Use the header area for the website name and logo -->
+	<header>
+	<a href="about.html">
+		<img src="images/banner.jpg" alt="Soufriere Kiddies Cicket Club Logo" class="responsive">
+		</a>
+	</header>
+	
+<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	
+<nav>
+  <ul>
+    <li><a href="about.html">About Us</a></li>
+	<li><a href="Team.html">Team</a></li>
+	<li><a href="SignUp.html">Sign Up</a></li>
+	<li><a href="FAQ.html">FAQ</a></li>
+    <li><a href="#" aria-haspopup="true">Events</a>
+      <ul class="dropdown">
+        <li><a href="pevents.html">Previous</a></li>
+        <li><a href="fixture.html">Upcoming</a></li>
+      </ul>
+    </li>
+	<li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!-- Use the main area to add the main content of the webpage -->
+<main>
+<h1> Registration Form</h1>
+<h2> Please complete and submite the form along with relevant informantion in order for you child/ward to be considered.</h2>
+	
+	 <!--Start Form-->
+<form action="/action_page.php" method="post">
+	<fieldset>
+	
+	<legend>Child's Information</legend>
+	
+	<label> Child's First Name: </Label>
+	<input type="text" name="fName" Required >
+	
+	<label>Childs's Last Name:</label>
+	<input type="text" name="Names" Required>
+
+	<label>Child's Date of Birth:</label>
+	<input type="date" name= "birthday" Required><br>
+		
+	<label>Home Address: </Label>
+	<input type="text" name="address" Required>
+	
+	<label>School: </Label>
+	<input type="text" name="Name" Required>
+	
+	<label>City:</Label>
+	<input type="text" name="City" Required>
+	
+	<p>Gender</p>
+<label>Male</label>
+  <input type="radio" name="gender" checked="checked" Value="Male"><br>
+  <label>Female</label>
+  <input type="radio" name="gender" checked="checked" Value="Female"><br>
+  
+<p> Have your son/daughter ever played cricket before?</p>
+
+<label>Yes</label>
+  <input type="radio" name="play" checked="checked" value="Yes"><br>
+  
+  <label>No</label>
+  <input type="radio" name="play" checked="checked" value="No"><br>
+	
+  
+  <p> Do your child have medical issues?</p>
+  <label>Yes</label>
+  <input type="radio" name="issues" checked="checked" value="Yes"><br>
+  
+  <label>No</label>
+  <input type="radio" name="issues" checked="checked" value="No"><br>
+	
+<label> If yes please specify:</label>
+<textarea id="questions"  name="questions" rows="3" cols="25"></textarea>
+	
+	</fieldset>
+	
+	<fieldset>	
+	<legend>Parent Information</legend>
+	<label>First Name: </Label>
+	<input type="text" name="Name" Required >
+	
+	<label>Last Name:</label>
+	<input type="text" name="Names" Required>
+		
+	<label>Home Address: </Label>
+	<input type="text" name="address" Required >
+	
+	<label>City: </Label>
+	<input type="text" name="city" Required >
+	
+	<label>Email:</label>
+	<input type="text" name="email" Required>
+	
+	<label>Cell Phone:  </label>
+	<input  type="text" name="telephone" Required> 
+	
+	<label>Home Phone:  </label>
+	<input  type="text" name="telephone" Required> 
+	
+	</fieldset>
+	
+	<input type="submit" value ="Submit"  class="btn">
+<input type="reset" value="Reset Form" class="btn">
+</form> 
+	
+
+</main>	
+	
+	
+<!-- Use the footer area to add webpage footer content -->
+<footer>
+	&copy; Copyright 2015. All Rights Reserved.<br>
+	<a href="mailto:soufrierekiddiescricket@club.net">soufrierekiddiescricket@club.net</a>
+</footer>
+
+</div>
+</body>
+</html>
